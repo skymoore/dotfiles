@@ -32,6 +32,8 @@ call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Show line numbers
 set number
+set splitbelow
+set termwinsize=33x0
 
 " Sets how many lines of history VIM has to remember
 set history=500
