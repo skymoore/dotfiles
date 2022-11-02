@@ -23,6 +23,8 @@ call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+Plug 'bling/vim-airline'
+"Plug 'scrooloose/nerdtree'
 
 call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
