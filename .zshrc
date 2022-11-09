@@ -22,6 +22,7 @@ macos
 rsync
 aws
 kubectl
+kubectx
 ssh-agent)
 
 export ZSH="$HOME/.oh-my-zsh"
@@ -55,4 +56,17 @@ if [[ -z $SSH_CONNECTION ]]; then
     export GPG_TTY="$(tty)"
     export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
     gpgconf --launch gpg-agent
+fi
+
+
+# kubectx plugin config
+RPS1='$(kubectx_prompt_info)'
+
+if [[ $(hostname) == "PS-US-0097.local" ]];then 
+    kubectx_mapping[prod-prod]="%{$fg[red]%}prod!%{$reset_color%}"
+    kubectx_mapping[prod-pre-prod]="%{$fg[yellow]%}pre-prod!%{$reset_color%}"
+    kubectx_mapping[dev-dev]="%{$fg[green]%}dev!%{$reset_color%}"
+    kubectx_mapping[dev-infra]="%{$fg[green]%}infra!%{$reset_color%}"
+    kubectx_mapping[sec-sectools]="%{$fg[blue]%}security!%{$reset_color%}"
+    kubectx_mapping[trn-trn]="%{$fg[white]%}training!%{$reset_color%}"
 fi
