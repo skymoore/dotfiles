@@ -44,6 +44,9 @@ alias iamjs2hcl=iam-policy-json-to-terraform
 alias awsl='aws sso login --profile'
 alias diff="colordiff"
 
+# dyff
+export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
