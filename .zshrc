@@ -42,7 +42,8 @@ alias kctx=kubectx
 alias kns=kubens
 alias iamjs2hcl=iam-policy-json-to-terraform
 alias awsl='aws sso login --profile'
-alias diff="colordiff"
+# alias diff="colordiff"
+alias toup="tr '[:lower:]' '[:upper:]'"
 
 # dyff
 export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"
