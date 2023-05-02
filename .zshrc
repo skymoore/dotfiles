@@ -8,6 +8,7 @@ COMPLETION_WAITING_DOTS="true"
 ZSH_THEME="dpoggi"
 HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="mm-dd-yyyy"
+setopt HIST_IGNORE_SPACE
 
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 15
@@ -35,6 +36,7 @@ test -e /usr/local/bin/brew && eval "$(/usr/local/bin/brew shellenv)"
 # path
 export PATH="/opt/homebrew/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH:$HOME/bin"
 export PATH="$PATH:$HOME/.cargo/env"
+export PATH="$PATH:$HOME/.docker/bin"
 
 # alias
 alias k=kubectl
@@ -44,6 +46,7 @@ alias iamjs2hcl=iam-policy-json-to-terraform
 alias awsl='aws sso login --profile'
 # alias diff="colordiff"
 alias toup="tr '[:lower:]' '[:upper:]'"
+alias gamp="git commit --amend --no-edit && git push -f"
 
 # dyff
 export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"
@@ -58,7 +61,7 @@ fi
 # remote gpg
 if [[ -z $SSH_CONNECTION ]]; then
     export GPG_TTY="$(tty)"
-    export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+    # export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
     gpgconf --launch gpg-agent
 fi
 
