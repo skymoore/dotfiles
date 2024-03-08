@@ -40,10 +40,11 @@ export PATH="$PATH:$HOME/.docker/bin"
 
 # alias
 alias k=kubectl
+alias c=codium
 alias kctx=kubectx
 alias kns=kubens
 alias iamjs2hcl=iam-policy-json-to-terraform
-alias awsl='aws sso login --profile'
+alias awsl='aws sso login'
 # alias diff="colordiff"
 alias toup="tr '[:lower:]' '[:upper:]'"
 alias gamp="git commit --amend --no-edit && git push -f"
@@ -69,11 +70,11 @@ fi
 # kubectx plugin config
 RPS1='$(kubectx_prompt_info)'
 
-if [[ $(hostname) == "PS-US-0097.local" ]];then 
-    kubectx_mapping[prod-prod]="%{$fg[red]%}prod!%{$reset_color%}"
-    kubectx_mapping[prod-pre-prod]="%{$fg[yellow]%}pre-prod!%{$reset_color%}"
-    kubectx_mapping[dev-dev]="%{$fg[green]%}dev!%{$reset_color%}"
-    kubectx_mapping[dev-infra]="%{$fg[green]%}infra!%{$reset_color%}"
-    kubectx_mapping[sec-sectools]="%{$fg[blue]%}security!%{$reset_color%}"
-    kubectx_mapping[trn-trn]="%{$fg[white]%}training!%{$reset_color%}"
-fi
+# if [[ $(hostname) == "PS-US-0097.local" ]];then 
+#     kubectx_mapping[prod-prod]="%{$fg[red]%}prod!%{$reset_color%}"
+#     kubectx_mapping[prod-pre-prod]="%{$fg[yellow]%}pre-prod!%{$reset_color%}"
+#     kubectx_mapping[dev-dev]="%{$fg[green]%}dev!%{$reset_color%}"
+#     kubectx_mapping[dev-infra]="%{$fg[green]%}infra!%{$reset_color%}"
+#     kubectx_mapping[sec-sectools]="%{$fg[blue]%}security!%{$reset_color%}"
+#     kubectx_mapping[trn-trn]="%{$fg[white]%}training!%{$reset_color%}"
+# fi
