@@ -68,7 +68,7 @@ fi
 
 
 # kubectx plugin config
-RPS1='$(kubectx_prompt_info)'
+# RPS1='$(kubectx_prompt_info)'
 
 # if [[ $(hostname) == "PS-US-0097.local" ]];then 
 #     kubectx_mapping[prod-prod]="%{$fg[red]%}prod!%{$reset_color%}"

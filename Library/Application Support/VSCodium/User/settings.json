@@ -1,0 +1,24 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "redhat.telemetry.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "python.defaultInterpreterPath": "/Users/smoore/Develop/venv/bin/python3",
+  "python.languageServer": "Jedi",
+  "flake8.args": [
+    "--max-line-length=88",
+    "--ignore=E203,E501,W503"
+  ],
+  "black-formatter.args": [
+    "--line-length",
+    "88"
+  ]
+}
