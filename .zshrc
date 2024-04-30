@@ -36,7 +36,9 @@ test -e /usr/local/bin/brew && eval "$(/usr/local/bin/brew shellenv)"
 # path
 export PATH="/opt/homebrew/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH:$HOME/bin"
 export PATH="$PATH:$HOME/.cargo/env"
+export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.docker/bin"
+export PATH="$PATH:/opt/homebrew/opt/postgresql@15/bin"
 
 # alias
 alias k=kubectl

@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "Default Dark Modern",
+  "files.insertFinalNewline": true,
   "redhat.telemetry.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "githubPullRequests.pullBranch": "never",
