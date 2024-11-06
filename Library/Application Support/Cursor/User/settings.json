@@ -4,13 +4,7 @@
     "files.insertFinalNewline": true,
     "redhat.telemetry.enabled": false,
     "git.openRepositoryInParentFolders": "never",
-    "githubPullRequests.pullBranch": "never",
-    "github.copilot.enable": {
-      "*": true,
-      "plaintext": false,
-      "markdown": false,
-      "scminput": false
-    },
+    "githubPullRequests.pullBranch": "never", 
     "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
     "python.defaultInterpreterPath": "/Users/smoore/Develop/venv/bin/python3",
