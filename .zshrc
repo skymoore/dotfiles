@@ -50,6 +50,8 @@ alias awsl='aws sso login'
 # alias diff="colordiff"
 alias toup="tr '[:lower:]' '[:upper:]'"
 alias gamp="git commit --amend --no-edit && git push -f"
+alias rdp="xfreerdp /u:sky.moore /d:icdt.net +clipboard /gfx /w:1800 /h:1100"
+alias fix-cursor-keys='defaults write $(defaults read /Applications/Cursor.app/Contents/Info.plist CFBundleIdentifier) ApplePressAndHoldEnabled -bool false && echo "Key repeat enabled for Cursor. Please restart the app."'
 
 # dyff
 export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"

@@ -4,17 +4,35 @@
     "files.insertFinalNewline": true,
     "redhat.telemetry.enabled": false,
     "git.openRepositoryInParentFolders": "never",
-    "githubPullRequests.pullBranch": "never", 
+    "githubPullRequests.pullBranch": "never",
     "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
     "python.defaultInterpreterPath": "/Users/smoore/Develop/venv/bin/python3",
     "python.languageServer": "Jedi",
-    "flake8.args": [
-      "--max-line-length=88",
-      "--ignore=E203,E501,W503"
-    ],
-    "black-formatter.args": [
-      "--line-length",
-      "88"
-    ]
+    "flake8.args": ["--max-line-length=88", "--ignore=E203,E501,W503"],
+    "black-formatter.args": ["--line-length", "88"],
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Dobri Next -A00- Black",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000",
+        "terminal.foreground": "#CED5E5",
+        "terminalCursor.background": "#000000",
+        "terminalCursor.foreground": "#FFD300",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#FB467B",
+        "terminal.ansiGreen": "#56D6D6",
+        "terminal.ansiYellow": "#FFD300",
+        "terminal.ansiBlue": "#61AFEF",
+        "terminal.ansiMagenta": "#CB6CFE",
+        "terminal.ansiCyan": "#56D6D6",
+        "terminal.ansiWhite": "#CED5E5",
+        "terminal.ansiBrightBlack": "#5C6370",
+        "terminal.ansiBrightRed": "#FB467B",
+        "terminal.ansiBrightGreen": "#56D6D6",
+        "terminal.ansiBrightYellow": "#FFCC00",
+        "terminal.ansiBrightBlue": "#61AFEF",
+        "terminal.ansiBrightMagenta": "#CB6CFE",
+        "terminal.ansiBrightCyan": "#56D6D6",
+        "terminal.ansiBrightWhite": "#FFFFFF"
+    }
 }
