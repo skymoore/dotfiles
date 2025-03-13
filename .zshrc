@@ -42,7 +42,8 @@ export PATH="$PATH:/opt/homebrew/opt/postgresql@15/bin"
 
 # alias
 alias k=kubectl
-alias c=codium
+alias c=cursor
+alias p=pulumi
 alias kctx=kubectx
 alias kns=kubens
 alias iamjs2hcl=iam-policy-json-to-terraform
