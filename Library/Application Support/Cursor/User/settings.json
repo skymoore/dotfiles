@@ -34,5 +34,6 @@
         "terminal.ansiBrightMagenta": "#CB6CFE",
         "terminal.ansiBrightCyan": "#56D6D6",
         "terminal.ansiBrightWhite": "#FFFFFF"
-    }
+    },
+    "python.createEnvironment.trigger": "off"
 }
