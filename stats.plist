@@ -14,6 +14,8 @@
 	<integer>4</integer>
 	<key>Battery_position</key>
 	<integer>6</integer>
+	<key>Battery_state</key>
+	<false/>
 	<key>Battery_widget</key>
 	<string></string>
 	<key>Bluetooth_label_position</key>
@@ -23,7 +25,7 @@
 	<key>Bluetooth_stack_position</key>
 	<integer>1</integer>
 	<key>Bluetooth_state</key>
-	<true/>
+	<false/>
 	<key>Bluetooth_widget</key>
 	<string></string>
 	<key>CPU_barChart_position</key>
@@ -37,7 +39,7 @@
 	<key>CPU_pieChart_position</key>
 	<integer>4</integer>
 	<key>CPU_position</key>
-	<integer>3</integer>
+	<integer>2</integer>
 	<key>CPU_tachometer_position</key>
 	<integer>5</integer>
 	<key>CPU_widget</key>
@@ -71,9 +73,15 @@
 	<key>Disk_pieChart_position</key>
 	<integer>5</integer>
 	<key>Disk_position</key>
-	<integer>2</integer>
+	<integer>4</integer>
+	<key>Disk_speed_downloadColor</key>
+	<string>secondGreen</string>
+	<key>Disk_speed_monochrome</key>
+	<true/>
 	<key>Disk_speed_position</key>
 	<integer>1</integer>
+	<key>Disk_speed_uploadColor</key>
+	<string>secondYellow</string>
 	<key>Disk_widget</key>
 	<string>memory,speed</string>
 	<key>GPU_barChart_position</key>
@@ -85,23 +93,66 @@
 	<key>GPU_mini_position</key>
 	<integer>0</integer>
 	<key>GPU_position</key>
-	<integer>4</integer>
+	<integer>3</integer>
 	<key>GPU_state</key>
 	<true/>
 	<key>GPU_tachometer_position</key>
 	<integer>2</integer>
 	<key>GPU_widget</key>
 	<string>mini</string>
+	<key>NSOSPLastRootDirectory</key>
+	<data>
+	Ym9va7wCAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAEA
+	AAQAAAADAwAAAAQAAAUAAAABAQAAVXNlcnMAAAADAAAAAQEAAHNreQAIAAAAAQYAABAA
+	AAAgAAAACAAAAAQDAAAZPAAAAAAAAAgAAAAEAwAABGQAAAAAAAAIAAAAAQYAADwAAABM
+	AAAACAAAAAAEAABBxX2zlJNJExgAAAABAgAAAgAAAAAAAAAfAgAAAAAAAB8CAAAAAAAA
+	AAAAAAEFAAAIAAAABAMAAAAAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8v
+	LwwAAAABAQAATWFjaW50b3NoIEhECAAAAAQDAAAAkIKW5wAAAAgAAAAABAAAQcbKs6iA
+	AAAkAAAAAQEAADc3Qjc4MTZELTk5NjMtNERBNS04MDE2LUZDQ0JGNzlCNjk3ORgAAAAB
+	AgAAgQAAAAEAAADvEwAAAQAAAO8TAAABAAAAAQAAAAEBAAAvAAAAMAAAAAECAABkbmli
+	AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkbGZ1AgAAAAAAAADwAAAA/v//
+	/wEAAAAAAAAAEwAAAAQQAAAsAAAAAAAAAAUQAABcAAAAAAAAABAQAAB8AAAAAAAAAEAQ
+	AABsAAAAAAAAAAIgAABQAQAAAAAAAAUgAADAAAAAAAAAABAgAADQAAAAAAAAABEgAAAE
+	AQAAAAAAABIgAADkAAAAAAAAABMgAAD0AAAAAAAAACAgAAAwAQAAAAAAADAgAACcAAAA
+	AAAAAAHAAACkAAAAAAAAABHAAAAgAAAAAAAAABLAAAC0AAAAAAAAAAHQAACcAAAAAAAA
+	ABDQAAAEAAAAAAAAABfwAAAgAAAAAAAAACLwAABcAQAAAAAAAA==
+	</data>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>1065 939 430 163 0 0 2560 1415 </string>
 	<key>Network_label_position</key>
 	<integer>2</integer>
 	<key>Network_networkChart_position</key>
 	<integer>0</integer>
+	<key>Network_network_chart_box</key>
+	<false/>
+	<key>Network_network_chart_downloadColor</key>
+	<string>secondGreen</string>
+	<key>Network_network_chart_frame</key>
+	<false/>
+	<key>Network_network_chart_historyCount</key>
+	<integer>90</integer>
+	<key>Network_network_chart_reverseOrder</key>
+	<false/>
+	<key>Network_network_chart_scale</key>
+	<string>linear</string>
+	<key>Network_network_chart_uploadColor</key>
+	<string>secondYellow</string>
 	<key>Network_position</key>
 	<integer>0</integer>
+	<key>Network_publicIPRefreshInterval</key>
+	<string>hour</string>
+	<key>Network_speed_downloadColor</key>
+	<string>secondGreen</string>
+	<key>Network_speed_icon</key>
+	<string>arrows</string>
 	<key>Network_speed_position</key>
 	<integer>1</integer>
+	<key>Network_speed_uploadColor</key>
+	<string>secondYellow</string>
+	<key>Network_speed_valueAlignment</key>
+	<string>left</string>
+	<key>Network_speed_valueColor</key>
+	<string>transparent</string>
 	<key>Network_state_position</key>
 	<integer>3</integer>
 	<key>Network_text_position</key>
@@ -114,6 +165,8 @@
 	<integer>2</integer>
 	<key>RAM_lineChart_position</key>
 	<integer>3</integer>
+	<key>RAM_memory_color</key>
+	<string>monochrome</string>
 	<key>RAM_memory_position</key>
 	<integer>0</integer>
 	<key>RAM_mini_position</key>
@@ -128,6 +181,8 @@
 	<integer>7</integer>
 	<key>RAM_widget</key>
 	<string>memory</string>
+	<key>Sensor_mini_color</key>
+	<string>monochrome</string>
 	<key>Sensors_barChart_position</key>
 	<integer>3</integer>
 	<key>Sensors_label_position</key>
@@ -141,7 +196,7 @@
 	<key>Sensors_stack_position</key>
 	<integer>1</integer>
 	<key>Sensors_state</key>
-	<true/>
+	<false/>
 	<key>Sensors_widget</key>
 	<string>mini</string>
 	<key>dockIcon</key>
