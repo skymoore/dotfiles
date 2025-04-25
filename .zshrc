@@ -76,13 +76,13 @@ if [[ -z $SSH_CONNECTION ]]; then
 fi
 
 # prompt
-ZSH_THEME_AWS_PROFILE_PREFIX="%{$fg[yellow]%}[<"
-ZSH_THEME_AWS_PROFILE_SUFFIX=">"
-ZSH_THEME_AWS_REGION_PREFIX="<"
-ZSH_THEME_AWS_REGION_SUFFIX=">]%{$reset_color%}"
+ZSH_THEME_AWS_PROFILE_PREFIX=""
+ZSH_THEME_AWS_PROFILE_SUFFIX=""
+ZSH_THEME_AWS_REGION_PREFIX=""
+ZSH_THEME_AWS_REGION_SUFFIX=""
 ZSH_THEME_AWS_DIVIDER=":"
 #PROMPT='$(aws_prompt_info) '$PROMPT
-RPROMPT='$(aws_prompt_info):%{$fg[blue]%}$(kubectx_prompt_info)%{$reset_color%}'
+RPROMPT='%{$fg[yellow]%}[$(aws_prompt_info)]%{$fg[blue]%}[$(kubectx_prompt_info)]%{$reset_color%}'
 
 # kubectx plugin config
 # RPS1='$(kubectx_prompt_info)'
