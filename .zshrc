@@ -16,7 +16,10 @@ zstyle ':omz:update' frequency 15
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(colored-man-pages
+docker
+docker-compose
 git
+gh
 gnu-utils
 httpie
 macos
