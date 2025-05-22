@@ -1,0 +1,17 @@
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# quick terminal
+quick-terminal-position = top
+quick-terminal-screen = mouse
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+keybind = global:ctrl+backslash=toggle_quick_terminal
+
+# theme
+background-opacity = 0.77
+# theme = ENCOM
+theme = haX0R_GR33N
+
