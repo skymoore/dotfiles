@@ -7,11 +7,21 @@
 # quick terminal
 quick-terminal-position = top
 quick-terminal-screen = mouse
+quick-terminal-autohide = false
+quick-terminal-animation-duration = 0
+quick-terminal-space-behavior = remain
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 keybind = global:ctrl+backslash=toggle_quick_terminal
 
+# macos
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+macos-titlebar-style = tabs
+
 # theme
 background-opacity = 0.77
-# theme = ENCOM
-theme = haX0R_GR33N
+background-blur = true
+theme = ENCOM
+# theme = haX0R_GR33N
+
 

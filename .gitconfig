@@ -1,6 +1,6 @@
 [user]
-    name = Sky Moore
-    email = i@msky.me
+	name = Sky Moore
+	email = i@msky.me
     signingkey = 26BED768CA795EC492C37FC24E492D88EF5C6C66
 [commit]
     gpgsign = true
