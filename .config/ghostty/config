@@ -24,4 +24,5 @@ background-blur = true
 theme = ENCOM
 # theme = haX0R_GR33N
 
-
+# general
+term = xterm-256color
