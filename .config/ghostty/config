@@ -13,6 +13,12 @@ quick-terminal-space-behavior = remain
 keybind = global:cmd+grave_accent=toggle_quick_terminal
 keybind = global:ctrl+backslash=toggle_quick_terminal
 
+# keybindings
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+l=goto_split:right
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+
 # macos
 macos-auto-secure-input = true
 macos-secure-input-indication = true
