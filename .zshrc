@@ -84,3 +84,7 @@ ZSH_THEME_AWS_DIVIDER=":"
 RPROMPT='%{$fg[yellow]%}[$(aws_prompt_info)]%{$fg[blue]%}[$(kubectx_prompt_info)]%{$reset_color%}'
 
 
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
