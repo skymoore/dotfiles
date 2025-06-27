@@ -42,5 +42,10 @@
         "terminal.ansiBrightWhite": "#FFFFFF"
     },
     "python.createEnvironment.trigger": "off",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "remote.SSH.remotePlatform": {
+        "linux": "linux"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.shellIntegration.enabled": true
 }
