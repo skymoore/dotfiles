@@ -47,9 +47,11 @@ export PATH="$PATH:$HOME/.docker/bin"
 export PATH="$PATH:/opt/homebrew/opt/postgresql@15/bin"
 
 # alias
-alias k=kubectl
+alias k=kubecolor
+alias kctl=kubectl
 alias c=cursor
 alias p=pulumi
+alias pss='pulumi stack select'
 alias kctx=kubectx
 alias kns=kubens
 alias awsl='aws sso login'
