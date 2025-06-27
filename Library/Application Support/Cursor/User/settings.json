@@ -1,5 +1,5 @@
 {
-    "window.commandCenter": 1,
+    "window.commandCenter": true,
     "redhat.telemetry.enabled": false,
     "files.insertFinalNewline": true,
     "redhat.telemetry.enabled": false,
@@ -18,7 +18,7 @@
         "88"
     ],
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Dobri Next -A00- Black",
+    "workbench.colorTheme": "Cursor Dark High Contrast",
     "workbench.colorCustomizations": {
         "terminal.background": "#000000",
         "terminal.foreground": "#CED5E5",
