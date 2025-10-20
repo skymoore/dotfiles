@@ -52,6 +52,7 @@ alias kctl=kubectl
 alias c=cursor
 alias p=pulumi
 alias pss='pulumi stack select'
+alias dkrc=docker-compose
 alias kctx=kubectx
 alias kns=kubens
 alias awsl='aws sso login'
