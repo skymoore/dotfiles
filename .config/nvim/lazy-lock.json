@@ -26,7 +26,7 @@
   "opencode.nvim": { "branch": "main", "commit": "65a627f88d98be7efd82897e6e53f428d8b9321d" },
   "persistence.nvim": { "branch": "main", "commit": "51eef57272742b773468949f6bd0503ec3f83874" },
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
-  "snacks.nvim": { "branch": "main", "commit": "774bf9d8c8d9bc401355f53605f91d469236f6c6" },
+  "snacks.nvim": { "branch": "main", "commit": "a9275cbe575ab30a3853853e3b1daf25eaa91017" },
   "todo-comments.nvim": { "branch": "main", "commit": "19d461ddd543e938eb22505fb03fa878800270b6" },
   "tokyonight.nvim": { "branch": "main", "commit": "e63c42a42b11cd6225f009dd949b9ee0fccc15ef" },
   "trouble.nvim": { "branch": "main", "commit": "c098362fe603d3922095e7db595961e020bdf2d0" },
