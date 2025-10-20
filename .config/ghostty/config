@@ -33,3 +33,4 @@ theme = catppuccin-mocha.conf
 
 # general
 term = xterm-256color
+font-family = "JetBrainsMono Nerd Font Mono"
