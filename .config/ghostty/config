@@ -25,9 +25,10 @@ macos-secure-input-indication = true
 macos-titlebar-style = tabs
 
 # theme
-background-opacity = 0.77
+background-opacity = 0.94
 background-blur = true
-theme = ENCOM
+theme = catppuccin-mocha.conf
+# theme = ENCOM
 # theme = haX0R_GR33N
 
 # general
