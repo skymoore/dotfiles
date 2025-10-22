@@ -5,7 +5,7 @@
 # DISABLE_MAGIC_FUNCTIONS="true"
 DISABLE_AUTO_TITLE="true"
 COMPLETION_WAITING_DOTS="true"
-ZSH_THEME="dpoggi"
+ZSH_THEME="sky-custom-dpoggi"
 HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="mm-dd-yyyy"
 setopt HIST_IGNORE_SPACE
@@ -30,9 +30,19 @@ plugins=(
     kubectl
     kubectx
     ssh-agent
+    tmux
+    vibe
 )
-
+export ZSH_TMUX_AUTOSTART=true
 export ZSH="$HOME/.oh-my-zsh"
+
+#tmux
+function get_cluster_short() {
+        echo "$1" | cut -d . -f1
+    }
+export KUBE_TMUX_CLUSTER_FUNCTION=get_cluster_short
+
+
 source $ZSH/oh-my-zsh.sh
 
 # brew config
