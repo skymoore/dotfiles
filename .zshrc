@@ -5,7 +5,7 @@
 # DISABLE_MAGIC_FUNCTIONS="true"
 DISABLE_AUTO_TITLE="true"
 COMPLETION_WAITING_DOTS="true"
-ZSH_THEME="sky-custom-dpoggi"
+ZSH_THEME=""
 HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="mm-dd-yyyy"
 setopt HIST_IGNORE_SPACE
@@ -42,7 +42,7 @@ function get_cluster_short() {
     }
 export KUBE_TMUX_CLUSTER_FUNCTION=get_cluster_short
 
-
+source sky-custom.zsh-theme
 source $ZSH/oh-my-zsh.sh
 
 # brew config
