@@ -101,3 +101,13 @@ RPROMPT='%{$fg[yellow]%}[$(aws_prompt_info)]%{$fg[blue]%}[$(kubectx_prompt_info)
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/sky/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# vibe-zsh
+export VIBE_SHOW_EXPLANATION=false
+export VIBE_MODEL="qwen/qwen3-coder-30b"
+export VIBE_API_URL="http://localhost:1234/v1"
