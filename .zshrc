@@ -42,7 +42,7 @@ function get_cluster_short() {
     }
 export KUBE_TMUX_CLUSTER_FUNCTION=get_cluster_short
 
-source sky-custom.zsh-theme
+source $HOME/sky-custom.zsh-theme
 source $ZSH/oh-my-zsh.sh
 
 # brew config
