@@ -33,7 +33,7 @@ plugins=(
     tmux
     vibe
 )
-export ZSH_TMUX_AUTOSTART=true
+export ZSH_TMUX_AUTOSTART=false
 export ZSH="$HOME/.oh-my-zsh"
 
 #tmux
@@ -51,10 +51,19 @@ test -e /usr/local/bin/brew && eval "$(/usr/local/bin/brew shellenv)"
 
 # path
 export PATH="/opt/homebrew/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH:$HOME/bin"
+export PATH="/opt/homebrew/Cellar/ruby/3.4.4/bin:$PATH"
 export PATH="$PATH:$HOME/.cargo/env"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.docker/bin"
 export PATH="$PATH:/opt/homebrew/opt/postgresql@15/bin"
+export PATH="$PATH:$HOME/development/flutter/bin"
+export PATH="$PATH:$HOME/.gem/bin"
+export PATH="$PATH:/opt/homebrew/lib/ruby/gems/3.4.0/bin"
+export PATH="$PATH:$HOME/go/bin"
+# export PATH="$PATH:opt/homebrew/share/android-commandlinetools/cmdline-tools/latest/bin"
+# export PATH="$PATH:/opt/homebrew/Caskroom/android-platform-tools/36.0.0/platform-tools/"
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"
 
 # alias
 alias k=kubecolor
@@ -101,11 +110,15 @@ ZSH_THEME_AWS_DIVIDER=":"
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh)"
+eval "$(rbenv init -)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/sky/.lmstudio/bin"
 # End of LM Studio CLI section
 
+# Task Master aliases added on 9/26/2025
+alias tm='task-master'
+alias taskmaster='task-master'
 
 # vibe-zsh
 export VIBE_SHOW_EXPLANATION=false

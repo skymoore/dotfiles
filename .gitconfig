@@ -3,10 +3,12 @@
 	email = i@msky.me
     signingkey = 26BED768CA795EC492C37FC24E492D88EF5C6C66
 [commit]
-    gpgsign = true
+	gpgsign = false
 
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[core]
+	sshCommand = ssh -i ~/.ssh/id_ed25519_auto -o IdentitiesOnly=yes
